@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    //simula los datos regresados como respuesta despues de insertar un nuevo dato en la bd
+    var newData = ["another title", "another subtitle"];
+
+    $("button").click(function(){
+      //El nuevo elemento insertado en el dom (un nuevo tr en este caso)
+      var newElement;
+      //Selecciona el último tr e inserta una copia del mismo
+      $("tr").last().after(
+        newElement = $("tr").last().clone(true)
+        
+      ).html();
+      
+      //Para cada td del nuevo elemento, se cambian los datos de acuerdo a los recibidos como respuesta por parte del servidor
+      $(newElement).children('td')
+        .each(function(i){
+          $(this).text(newData[i])
+        })
+
+    });
+
+  });
+</script>
+</head>
+<body>
+
+  <table> 
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Subtitle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>title1</td>
+        <td>subtitle1</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <button>Copy the first p element (including event handlers), and append to body element</button>
+
+</body>
+</html>

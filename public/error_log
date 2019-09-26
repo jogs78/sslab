@@ -1,0 +1,73 @@
+[16-May-2019 16:40:12 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:40:17 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:40:21 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:40:46 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:40:48 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:40:52 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:42:27 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:42:41 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:46:39 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:47:56 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[16-May-2019 16:55:55 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepar in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[20-May-2019 21:32:16 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/app/Models/Proyecto.php on line 25
+[15-Jun-2019 04:57:58 UTC] PHP Fatal error:  Cannot redeclare App\Models\User::oresponsable() in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/app/Models/User.php on line 55
+[01-Aug-2019 20:14:43 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/app/Http/Controllers/PrestadorController.php on line 3
+[01-Aug-2019 20:15:45 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/app/Http/Controllers/PrestadorController.php on line 3
+[28-Aug-2019 23:07:02 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\JefeController::__construct() in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/app/Http/Controllers/JefeController.php on line 30
+[28-Aug-2019 23:09:43 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\JefeController::__construct() in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/app/Http/Controllers/JefeController.php on line 30
+[28-Aug-2019 23:14:56 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ResponsableController::__construct() in /home/p9rw017z7ghv/public_html/ittg/isc/sslab/app/Http/Controllers/ResponsableController.php on line 27
