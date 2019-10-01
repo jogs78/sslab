@@ -40,15 +40,23 @@ class PrestadorController extends Controller
 
 		$this->validate($request, [
 			'fecha_relizado' => 'required|date_format:Y-m-d',
-			'hora_llegada' => 'required|date_format:H',
-			'hora_salida' => 'required|date_format:H',
+			'hora_llegada' => 'required|date_format:H:i',
+			'hora_salida' => 'required|date_format:H:i',
 		]);
-
 		$campos = $request->only([
 			'fecha_relizado',
 			'hora_llegada',
 			'hora_salida',
 		]);
+
+		/*
+		return response()->json([
+			'data' => $campos,
+			'message' =>  'DATOS:.'
+		], 201);
+*/
+
+		
 		//$prestador = Prestador::find( Auth::user()->id)->proyecto->id;
 
 		$campos['proyecto_id'] = Prestador::find(Auth::user()->id)->proyecto->id;

@@ -75,8 +75,10 @@ $("[name='btnMostrarModalHorarioPrestador']").click(function(e){
 
         //Se puede ocupar $.ajax o sus variantes($.post, $.get ....)
         //form.serialize() obtiene todos los datos del formulario (campos y valores)
-	var a = form.serialize();
-        $.post(url, form.serialize(), function(result){
+    var a = form.serialize();
+    var b = a.split("&");
+    var c = JSON.stringify(b);
+        $.post(url, a, function(result){
             //Lo que se debede hacer cuándo la operación fue un exito
             
             console.log(result);
