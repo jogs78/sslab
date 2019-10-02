@@ -15,8 +15,6 @@
     <!-- Scripts -->
 
     <!--<script src="http://sslab.isc.ittg.mx/js/app.js" defer></script>-->
-
-     
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>-->
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
@@ -27,29 +25,26 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
-
     <!-- Styles -->
-    <link href="http://sslab.isc.ittg.mx/css/app.css" type="text/css" rel="stylesheet">
+    <link href="css/app.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
   
     
      <!-- Style -->
  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
-
     <!-- Full Calendar Styles -->
     <link href="{{ asset('librerias/fullcalendar-4.2.0/packages/core/main.css') }}" rel="stylesheet" />
     <link href="{{ asset('librerias/fullcalendar-4.2.0/packages/daygrid/main.css') }}" rel="stylesheet" />
     <link href="{{ asset('librerias/fullcalendar-4.2.0/packages/timegrid/main.css') }}" rel="stylesheet" />
 
     <!-- 
-    <link rel="stylesheet" type="text/css" href="http://sslab.isc.ittg.mx/librerias/alertifyjs/css/alertify.css">
-    <link rel="stylesheet" type="text/css" href="http://sslab.isc.ittg.mx/librerias/alertifyjs/css/themes/default.css">
-    <link rel="stylesheet" type="text/css" href="http://sslab.isc.ittg.mx/librerias/select2/css/select2.css">
+    <link rel="stylesheet" type="text/css" href="/librerias/alertifyjs/css/alertify.css">
+    <link rel="stylesheet" type="text/css" href="/librerias/alertifyjs/css/themes/default.css">
+    <link rel="stylesheet" type="text/css" href="/librerias/select2/css/select2.css">
 
     -->
-
 </head>
 <body>
     <div id="app">

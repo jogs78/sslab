@@ -211,17 +211,6 @@
 				<!-- Modal body -->
 				<div class="modal-body"> 
 					<div id='calendar'></div>
-					<form action="{{ url('/jefe') }}" method="GET" role="form" id="formCalendario">
-						<!--
-						<ul>
-								@foreach ($horarios as $horario)
-										<li class="border">
-												{{ $horario->dia }} DE {{ $horario->hora }} - {{ $horario->salida }} 
-										</li>
-								@endforeach
-						</ul>
-						-->
-					</form>
 				</div>
 						<button type="button" class="btn btn-danger float-right" data-dismiss="modal">Cerrar</button>
 			</div>
