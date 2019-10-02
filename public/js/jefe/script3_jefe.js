@@ -254,6 +254,7 @@ $(document).ready(function(){
                     displayEventTime: true,
                     displayEventEnd: true
                 },
+                defaultView: 'agendaWeek'
             },
             //defaultDate: '2019-06-12',
             eventRender: function(info) {
@@ -402,6 +403,9 @@ $("[name='btnMostrarModalHorarios']").click(function(e){
             //Agrega los eventos al calendario
             calendar.addEventSource(asistencias);
             //Renderiza de nuevo el calendario con los nuevos eventos
+            $('#calendar').fullCalendar({
+                defaultView: 'agendaWeek'
+              });
             calendar.render();
         });
 
