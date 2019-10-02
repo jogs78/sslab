@@ -43,5 +43,30 @@ class ProyectoController extends Controller
 
 	        ], 200);
 	}
+	// VER HORARIO de todos
+	public function mostrar_horarios(Request $request, Proyecto $proyecto){
+		$dias = collect([
+			['nombre' => 'Lunes', 'clave' => 'lunes'],
+			['nombre' => 'Martes', 'clave' => 'martes'],
+			['nombre' => 'Miércoles', 'clave' => 'miercoles'],
+			['nombre' => 'Jueves', 'clave' => 'jueves'],
+			['nombre' => 'Viernes', 'clave' => 'viernes']
+		]);
+		$horario = $proyecto->horarioProyecto
+	    		->map(function ($item, $key) use ($dias) {
+	    			$item = $item->toArray();
+	    			$item['entrada'] = $item['hora'];
+	    			$item['claveDia'] = $dias->where('nombre', $item['dia'])->first()['clave'];
+	    			return Arr::except($item, ['hora']);
+				});
+	    	$horario = $horario->groupBy('claveDia');
+
+	    	
+	        return response()->json([
+
+	            'data' => $horario,
+
+	        ], 200);
+	}
 
 }

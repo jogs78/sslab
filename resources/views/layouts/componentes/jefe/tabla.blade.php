@@ -14,6 +14,9 @@
 		<button class="btn btn-primary" data-toggle="modal" data-target="#modalNuevo" onclick="$('#modalguardar')[0].reset(); app.__vue__.$refs.horario.eliminarCampos();">
 				Agregar estadia
 		</button>
+		<button class="btn btn-primary" data-toggle="modal"  name="btnMostrarModalHorarios">
+				Mostrar horarios <!-- data-target="#modalHorarioPrestadores" -->
+		</button>
 		<br>
 		@empty ($projects)
 			<p>Sin usuarios</p>

@@ -45,8 +45,8 @@ Route::post('guardarpermisos', 'JefeController@guardarpermisos')->name('guardarp
 Route::get('/jefe/proyecto/{proyecto}/ver-horas', 'JefeController@verHoras')->name('verHoras');
 //jefe->registrarIncidencia
 Route::post('/jefe/proyecto/{proyecto}/registrar-incidencia', 'JefeController@registrarIncidencia')->name('registrarIncidencia');
-
-
+//jefe->HorariosDeTodos
+Route::get('/horarios', 'ProyectoController@mostrar_horarios')->name('verhorarios');
 
 
 

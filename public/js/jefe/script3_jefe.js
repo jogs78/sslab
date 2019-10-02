@@ -327,7 +327,7 @@ $(document).ready(function(){
         
     });
 
-//Horario inicio
+//Horario inicio (personal)
 $("[name='btnMostrarModalHorarioJefe']").click(function(e){
 
     var proyectoId = $(this).attr('data-proyectoId');
@@ -362,6 +362,53 @@ $("[name='btnMostrarModalHorarioJefe']").click(function(e){
 
         
     });
+
+//          HORARIO FIN---------------
+
+//Horario inicio (de todos)
+$("[name='btnMostrarModalHorarios']").click(function(e){
+        /*Elimina los eventos (datos) cargados por otro proyecto*/
+        $.each(calendar.getEventSources(), function(i,resource){
+            resource.remove();
+        });
+
+        var proyectoId = $(this).attr('data-proyectoId');
+        /*
+            Cada vez que se abre una nueva estadia para editar
+             -> se limpia el formulario 
+             -> se elimina el atributo data-proyectoId en el boton btnGuardarAsistencia
+        */
+
+        var form = $("#formCalendario");
+
+        //Formamos la url mediante la url base que trae el formulario /jefe/ + la id del proyecto
+        //var url = form.attr('action')+'/proyecto/'+proyectoId+'/ver-horas';
+        var url = '/horarios';
+
+        $.get(url, function(result){
+            /*Aquí van los eventos a mostrar (datos)*/
+            var asistencias = [];
+            $.each(result.data.asistencias, function(i,item){
+                asistencias[i] = {
+                    title: 'Asistencia',
+                    start: item.fecha_relizado+'T'+item.hora_llegada,
+                    end: item.fecha_relizado+'T'+item.hora_salida,
+                    color: '#4caf50',
+                    description: item.observaciones,
+                };
+            });
+
+            
+            //Agrega los eventos al calendario
+            calendar.addEventSource(asistencias);
+            //Renderiza de nuevo el calendario con los nuevos eventos
+            calendar.render();
+        });
+
+        //Muestra el modal
+        $("#modalHorarioPrestadores").modal('show');
+     
+});
 
 //          HORARIO FIN---------------
 

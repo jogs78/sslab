@@ -130,7 +130,7 @@
 
 
 
-<!-- Modal para edicion de datos -->
+<!-- Modal para Calendarios -->
 	<div class="modal fade" id="modalCalendario">
 		@csrf
 		<div class="modal-dialog modal-lg">
@@ -197,3 +197,39 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Modal para mostrar todos los horarios -->
+	<div class="modal fade" id="modalHorarioPrestadores">
+		@csrf
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">Horario de todos</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<!-- Modal body -->
+				<div class="modal-body"> 
+					<div id='calendar'></div>
+					<form action="{{ url('/jefe') }}" method="GET" role="form" id="formCalendario">
+						<!--
+						<ul>
+								@foreach ($horarios as $horario)
+										<li class="border">
+												{{ $horario->dia }} DE {{ $horario->hora }} - {{ $horario->salida }} 
+										</li>
+								@endforeach
+						</ul>
+						-->
+					</form>
+				</div>
+						<button type="button" class="btn btn-danger float-right" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+
+
+
+
+		
+	</div>
+
